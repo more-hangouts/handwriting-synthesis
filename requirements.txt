@@ -1,0 +1,10 @@
+matplotlib>=3.5.0
+pandas>=1.4.0
+scikit-learn>=1.0.0
+scipy>=1.8.0
+svgwrite>=1.4.0
+tensorflow>=2.10.0
+tf-keras
+numpy>=1.22.0
+gradio>=4.0.0
+cairosvg>=2.7.0

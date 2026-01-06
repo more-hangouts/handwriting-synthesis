@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "handwriting-synthesis"
+version = "0.1.0"
+description = "Implementation of handwriting synthesis experiments based on Alex Graves' paper."
+readme = "readme.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Sean Vasquez"},
+]
+dependencies = [
+    "matplotlib>=3.5.0",
+    "pandas>=1.4.0",
+    "scikit-learn>=1.0.0",
+    "scipy>=1.8.0",
+    "svgwrite>=1.4.0",
+    "tensorflow>=2.10.0",
+    "tf-keras",
+    "tensorflow-probability",
+    "numpy>=1.22.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/sjvasquez/handwriting-synthesis"
